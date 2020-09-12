@@ -40,6 +40,7 @@
         width:200px;
         left:700px;
         top:-50px;
+        color:white;
         }
         h2{
              position:relative;
@@ -55,9 +56,13 @@
             width:153px;
             top: 95px;
         }
+        #var{
+            position:fixed;
+            width:100%;
+        }
     </style>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark" id="var">
   <a class="navbar-brand" href="#">
     
     OTHARO
@@ -82,6 +87,8 @@
         </label>
     </form>
     </div>
+    
+    <asp:Image ID="Image1" runat="server" Height="100%" ImageUrl="~/img/login.jpg" Width="100%" />
     
 </body>
 </html>

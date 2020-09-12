@@ -24,6 +24,7 @@
         label{
             text-align:center;
             width: 1572px;
+            color:white;
         }
         #exampleInputPassword1{
             width:300px;
@@ -40,12 +41,14 @@
         width:200px;
         left:698px;
         top:-78px;
+        color:white;
         }
         h2{
              position:relative;
         width:400px;
         left:668px;
-        top:-43px
+        top:-43px;
+        color:white;
         }
         #a{
             color:white;
@@ -105,6 +108,8 @@
         </label>
     </form>
     </div>
+    
+    <asp:Image ID="Image1" runat="server" Width="100%" Height="1100px" ImageUrl="~/img/registro.jpg" />
     
 </body>
 </html>
