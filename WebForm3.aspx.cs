@@ -637,8 +637,9 @@ namespace proyecto1
           d64+
                 "</tablero>");
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            documento.Save(path+"/nuevo.xml");
-           
+            documento.Save(path+"/posicionesFichas.xml");
+            HttpContext.Current.Response.Write("el archivo se ha descargado se encuentra en el directorio escritorio, nombre del archivo: posicionesFichas.xml");
+
 
 
 
